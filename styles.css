@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&family=Staatliches&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+}
+p{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    width:100%; 
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.left-color{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.right-color{
+    height: 100%;
+    left: 30%;
+    width: 70%;
+    position: absolute;   
+    transition: 0.5s ease-in-out; 
+} 
+.image-1{
+    background-image:url(" https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.image-2{
+    background-image:url("https://images.pexels.com/photos/2365457/pexels-photo-2365457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.image-3{
+    background-image:url(" https://images.pexels.com/photos/11920509/pexels-photo-11920509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.image-4{
+    background-image:url("https://images.pexels.com/photos/11181151/pexels-photo-11181151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.color-1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: greenyellow;
+
+}
+.color-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: whitesmoke;
+
+}
+.color-3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: orange;
+
+}
+.color-4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: gray;
+
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.button-up i{
+    color: aliceblue;
+    background: black;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-down i{
+    color: aliceblue;
+    transform: translateX(-100%);
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.button-up i:hover{
+    background-color: aqua;
+    
+}
+.button-down i:hover{
+    background-color: aqua;
+    
+}
